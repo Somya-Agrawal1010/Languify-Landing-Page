@@ -1,0 +1,124 @@
+
+.container5 {
+    background: #001929;
+    border-radius: 10px;
+    color: white;
+   margin-top:37px;
+    margin: 89px;
+  }
+  .container5 h1 {
+    margin-left: 6vw;
+    width: 30vw;
+    padding: 50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+  }
+  .main5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    /* border: 1px solid red; */
+  }
+  .card5 {
+    background: #01243b;
+    width: 35vw;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 330px;
+  }
+  .circle {
+    width: 3em;
+    height: 3em;
+    background: #c4c4c4;
+    border-radius: 50%;
+    
+    
+  }
+
+  .container5 .card5 a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 70px;
+  }
+  .heading {
+    padding: 10px;
+    /* margin-top: -200px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+  }
+ 
+  .card5 h6,
+  a {
+    color: #2dabff;
+    margin-top: 10px;
+  }
+  .card5 p {
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    padding: 10px 70px 10px 70px;
+    color: #e8e8f2;
+    opacity: 0.9;
+    font-family: "Inter", sans-serif;
+  }
+  .name h6 {
+    /* margin-top: -170px; */
+    
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+  }
+  .name h4{
+    text-align: center;
+    margin-inline: 60px;
+  }
+  /* Media query for even smaller screens (e.g., smartphones) */
+  @media (max-width: 480px){
+    .container5{
+      margin: 5px;
+    }
+    .container5 h1{
+      text-align: center;
+      width: 92%;
+    }
+    .main5 {
+        display: block;
+        margin-bottom: 20px; /* Change to block display for mobile */
+    }
+
+    .card5 {
+        width: 105%; /* Adjust width for mobile screens */
+        margin: 5px auto;
+        
+        height: 280px;
+         /* Center the card on mobile */
+    }
+    .card5 p {
+      width:424px;
+      margin-top: 20px;
+      margin: -19px;
+      margin-top: -1%;
+    
+    }
+    .heading{
+      padding: 12px;
+      margin-top: 10px;
+    }
+    .name h6{
+      margin-top: -3px;
+
+    }
+    .card5 a{
+      margin-left: 48px;
+    }
+}
+
+
+
+
+
+

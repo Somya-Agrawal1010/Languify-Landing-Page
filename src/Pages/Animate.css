@@ -1,0 +1,102 @@
+.wavecontainer {
+    width: 100%;
+    min-height: 200px;
+    background:  rgba(0, 25, 41, 1);/* Set the background color */
+    align-items: center;
+     position: relative;
+     
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 140%;
+    height: 117px; /* Adjust the wave height to fit the container size */
+    background-size: 200px 50px; /* Adjust the background size to fit the wave size */
+    background: url('wave.png');
+  }
+  
+  .wave.wave1 {
+    z-index: 1000;
+    opacity: 1;
+    animation: animateWave 4s linear infinite;
+  }
+  
+  .wave.wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    animation: animateWave 4s linear infinite;
+  }
+  
+  .wave.wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    animation: animateWave 3s linear infinite;
+  }
+  
+  .wave.wave4 {
+    z-index: 999;
+    opacity: 0.5;
+    animation: animateWave 3s linear infinite;
+  }
+  
+  @keyframes animateWave {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wavecontainer {
+      min-height: 200px;
+     
+    }
+  
+    .wave {
+      height: 80px;
+      
+    }
+  }
+  .section2 {
+    margin-top: 12px;
+    margin: 80px;
+    margin-right: 20px;
+    
+  }
+  .container2 .card{
+    margin-inline: 30px;
+    background-color:#fff;
+    
+  }
+  .card-body span{
+    margin: 5px;
+    font-size: 35px;
+    margin-inline: 10px;  
+    
+    
+  }
+  .card-text{
+    font-weight: bold;
+  }
+  .row1{
+    margin: 69px;
+    margin-bottom: 1px;
+  }
+@media screen and (max-width: 480px){
+    
+
+  .section2{
+    margin: 30px;
+  }
+  .row1{
+    margin: 2px;
+  }
+}
+  
+  
+  
+  
+  
+  

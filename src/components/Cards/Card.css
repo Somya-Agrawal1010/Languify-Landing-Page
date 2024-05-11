@@ -1,0 +1,103 @@
+.box-container{
+    width: 100%;
+    margin: 80px;
+    margin-top: 40px;
+}
+.main-heading{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 15px;
+    margin-inline: 80px;
+    padding: 20px;
+}
+span .head{
+    color: rgba(13, 102, 235, 0.721);
+    margin-inline: 10px;
+}
+.card-container{
+    margin: 25px;
+    padding: 20px;  
+    display: flex; 
+    flex-wrap: wrap;
+    border-radius: 20px;  
+}
+.card{
+    width:27rem;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;    
+    justify-content: space-evenly;
+}
+.card img{
+    border-radius: 15px;
+}
+.main span{
+    font-size: 27px;
+    margin-top: 2px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+h6{
+    margin-inline: 5px;
+}
+.card1{
+    margin-inline: 70px;
+}
+.card2{
+    margin-inline: 290px;
+}
+.card3{
+    margin-left: -123px;
+}
+.card4{
+    margin-inline: 150px;
+}
+.card span{
+    color:rgb(0, 110, 255);
+}
+
+@media (max-width: 480px) {
+    .box-container {
+        width: 85%;
+        margin-left: 1px;
+        
+    }
+
+    .main-heading {
+       font-size: 28px;
+       margin: 4px;
+       margin-inline: 5px;
+       text-align: center;
+    }
+
+    .main-heading span {
+        margin-inline: 5px;
+    }
+
+    .card-container {
+        margin: 10px 0;
+        width: 500px;
+    
+        
+    }
+     .card{
+     /* 50% width for each card, accounting for margins */
+    margin-bottom: 10px;
+    width: 350px;
+    
+     }
+    .card1{
+        margin-left: 0px;
+    }
+    .card2{
+        margin-left: 3px;
+    }
+    .card3{
+        margin-left: 3px;
+    }
+    .card4{
+        margin-left: 3px;
+    }
+}

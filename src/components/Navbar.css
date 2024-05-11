@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+/* Overall Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Change the text color as needed */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 12px 0px rgba(255, 255, 255, 0.25);
+
+  }
+  
+  /* Logo Styles */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: rgba(255, 68, 0, 0.645); /* Adjust the font size as needed */
+  }
+  .logo span {
+    font-weight: bold;
+  }
+  /* Navigation Links Styles */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff; /* Change the link color as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+  }
+  
+  /* Button Styles */
+  .custom-button {
+    background-color: rgb(6, 86, 152);
+    color: #fff; /* Change the button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color:  rgb(5, 66, 116);/* Change the button color on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+    }
+    .logo , .logo span{
+      font-size: 23px;
+    
+    }
+  
+    .navbar-center {
+      margin-top: 10px;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+   
+  }
